@@ -52,4 +52,26 @@ public class TwoIntegers
 			return num2;
 		}
 	}
+	public boolean isEven(int sum)
+	{
+		if(sum % 2 == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+	public boolean multiples()
+	{
+		if(num1 % num2 == 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
 }
