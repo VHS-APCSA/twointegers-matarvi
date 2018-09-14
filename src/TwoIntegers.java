@@ -29,12 +29,12 @@ public class TwoIntegers
 	{
 		this.num2 = num2;
 	}
-	public String arithmetic(int sum, int product, int difference, int quotient)
+	public String arithmetic()
 	{
-		sum = num1 + num2;
-		product = num1 * num2;
-		difference = num1 / num2;
-		quotient = num1 % num2;
+		int sum = num1 + num2;
+		int product = num1 * num2;
+		int difference = num1 / num2;
+		int quotient = num1 % num2;
 		
 		return num1 + "+" + num2 + "=" + sum + ", " 
 		+ num1 + "*" + num2 + "=" + product + ", " 
@@ -52,8 +52,9 @@ public class TwoIntegers
 			return num2;
 		}
 	}
-	public boolean isEven(int sum)
+	public boolean isEven()
 	{
+		int sum = num1 + num2;
 		if(sum % 2 == 0)
 		{
 			return true;

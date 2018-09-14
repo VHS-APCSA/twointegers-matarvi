@@ -9,5 +9,13 @@ public class TwoIntegersRunner
 		int value1 = input.nextInt();
 		int value2 = input.nextInt();
 		TwoIntegers ti = new TwoIntegers(value1, value2);
+		String arithmetic = ti.arithmetic();
+		int larger = ti.larger();
+		boolean even = ti.isEven();
+		boolean multiple = ti.multiples();
+		System.out.println(arithmetic);
+		System.out.println(larger + " is larger.");
+		System.out.println("Is the sum even? " + even);
+		System.out.println("Is the first number a multiple of the second number? " + multiple);
 	}
 }
